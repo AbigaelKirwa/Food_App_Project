@@ -78,6 +78,7 @@ li
     background-color: #ffffff;
     border-radius: 55px;
     border: none;
+    box-shadow: 10px 10px rgb(89,60,60,0.28);
 }
 .navbar-list button
 {
@@ -145,18 +146,41 @@ a
     font-weight: bold;
     font-size: 25px;
     color: #ffffff;
-    background-color: rgb(36, 114, 44);
+    background-color: rgb(29, 129, 39);
     border-radius: 55px;
     border: none;
+    box-shadow: 10px 10px rgb(89,60,60,0.28);
 }
 .section-one-main-words button
 {
     padding-top: 3%;
     padding-bottom: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
     margin-top: 5%;
     margin-left: 3%;
+}
+#myBtn 
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    background-color: #22710B;
+    color:#ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+ }
+  
+#myBtn:hover 
+{
+    background-color: rgb(163, 157, 157);
 }
 section.section-two
 {
@@ -229,22 +253,331 @@ section.section-two
     padding: 1%;
     margin-left: 5%;
 }
-.section-three h1
+.login-and-signup
+{
+    margin-top: 5%;
+}
+.login-first-bar-picture img
+{
+    width: 230%;
+    margin-left: -75%;
+}
+.login-vector-one img
+{
+    width: 40%;
+    margin-left: 10%;
+}
+.login-main
+{
+    display: flex;
+    flex-direction: row;
+}
+.login-main-pic img
+{
+    width: 60%;
+    margin-left: -30%;
+    margin-top: -20%;
+}
+.login-main-words
+{
+    width: 50%;
+    margin-left: -35%;
+    margin-top: -15%;
+}
+.login-vector-2 img
+{
+    margin-top: -55%;
+}
+
+.login-main-words h1
+{
+    color: #8A3D6E;
+    font-size: 60px;
+    width: max-content;
+}
+.login-main-words h1
+{
+    padding-left: 43%;
+    margin-bottom: 5%;
+}
+.login-main-words .form_row
+{
+    display: flex;
+    flex-direction: row;
+}
+.login-main-words label
+{
+    color: #8A3D6E;
+    font-size: 20px;
+    font-weight: bold;
+    width: max-content;  
+}
+.login-main-words input
+{
+    border: solid;
+    background-color: transparent;
+    border: 2px solid #467D21;
+    box-shadow: 8px 8px rgb(89,60,60,0.28);
+    border-radius: 50px;
+    margin-bottom: 4%;
+    text-align: center;
+    padding: 3% 19%;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.login-main-words p span
+{
+    color: #467D21;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.login-main-words p
+{
+    margin-top: 2%;
+    font-size: 20px;
+}
+.login-main-words button
+{
+    width: max-content;
+    white-space: nowrap;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #22710B;
+    box-shadow: 10px 10px rgb(89,60,60,0.28);
+    border-radius: 55px;
+    border: none;
+    padding: 3% 15%;
+}
+.login-main-words button
+{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.signup 
+{
+    display: flex;
+    flex-direction: row;
+}
+.sign-up-main-pic img
+{
+    width: 110%;
+    margin-left: 40%;
+    margin-top: -20%;
+}
+.sign-up-main-words
+{
+    width: 90%;
+    margin-top: 5%;
+    margin-left:7%;
+}
+.sign-up-main-words h1
+{
+    color: #8A3D6E;
+    font-size: 60px;
+    width: max-content;
+}
+.sign-up-main-words h1
+{
+    padding-left: 43%;
+    margin-bottom: 5%;
+}
+.sign-up-main-words .form_row
+{
+    display: flex;
+    flex-direction: row;
+}
+.sign-up-main-words label
+{
+    color: #8A3D6E;
+    font-size: 20px;
+    font-weight: bold;
+    width: max-content;  
+}
+.sign-up-main-words input
+{
+    border: solid;
+    background-color: transparent;
+    border: 2px solid #467D21;
+    box-shadow: 8px 8px rgb(89,60,60,0.28);
+    border-radius: 50px;
+    margin-bottom: 4%;
+    text-align: center;
+    padding: 3% 19%;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.sign-up-main-words input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.sign-up-main-words p span
+{
+    color: #467D21;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sign-up-main-words p
+{
+    margin-top: 2%;
+    font-size: 20px;
+}
+.sign-up-main-words button
+{
+    width: max-content;
+    white-space: nowrap;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #22710B;
+    box-shadow: 10px 10px rgb(89,60,60,0.28);
+    border-radius: 55px;
+    border: none;
+    padding: 3% 15%;
+}
+.sign-up-main-words button
+{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.login-vector-3 img
+{
+    width: 40%;
+    margin-left: 45%;
+    margin-top: -10%;
+}
+.sign-up-first-bar-picture img
+{
+    width: 230%;
+    margin-left: -75%;   
+    margin-top: -8%;
+}
+.lower-section-borders
+{
+    display: flex;
+    flex-direction: row;
+}
+.lower-section-border-left
+{
+    margin-left: -25%;
+}
+.lower-section-border-right
+{
+    margin-left: 84%;
+    margin-top: -17%;
+}
+.section-three
+{
+    margin-top: -460%;
+}
+.section-three-heading, .section-four-heading
+{
+    text-align: center;
+}
+.section-three-heading h1, .section-four-heading h1, .section-five-heading h1
+{
+    color: #8A3D6E;
+    font-size: 60px;
+    font-weight: bold; 
+}
+.section-three-heading h1
+{
+    margin-left: -15%;
+}
+.section-three-menu-options-row
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+.column-one
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.column-one-image img
+{
+    width: 40%;
+}
+.column-one-words
+{
+    margin-top: 5%;
+}
+.column-one-words p
+{
+    font-size: 30px;
+}
+.section-four, .section-five
+{
+    margin-top: 5%;
+}
+ .section-tab
+{
+    padding: 5% 20% 10% 8%;
+    background-color: #22710B ;
+    width: max-content;
+    border-radius: 80px;
+    color: #ffffff;
+}
+.section-tab
+{
+    margin-left: 24%;
+    margin-top: 3%;
+}
+.part-one-row
+{
+    display: flex;
+    flex-direction: row;
+}
+.section-tab input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid;
+    border-color: #ffffff;
+    width:150%;
+    padding-top: 10%;
+    text-align: center;
+}
+.section-tab .part-one-row-words
+{
+    font-size: 20px;
+    margin-top: 5%;
+}
+.section-tab-sub-heading h4
+{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.section-six h1
 {
     color: #8A3D6E;
     font-size: 70px;
     width: max-content;
     text-align: center;
 }
-.section-three
+.section-six
 {
     padding-top: 10%;
+    padding-left: 5%;
 }
-.section-three h1
+.section-six h1
 {
     padding-left: 22%;
 }
-.section-three-icons
+.section-six-icons
 {
     display: flex;
     flex-direction: row;
@@ -284,7 +617,7 @@ footer
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(180deg, #287a0f, #22660d);
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 5%;
 }
 .footer-copyright
@@ -550,5 +883,9 @@ footer
     .section-two-pictures-explanation-2 #explanation-6
     {
         margin-left: -3%;
+    }
+    .section-three h1
+    {
+        margin-top: 100%;
     }
 }
