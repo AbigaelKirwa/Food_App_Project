@@ -546,6 +546,7 @@ input:focus, textarea:focus, select:focus{
     width: max-content;
     border-radius: 80px;
     color: #ffffff;
+    box-shadow: 30px 30px 5px rgba(97, 92, 92, 0.28);
 }
 .section-four  .section-tab
 {
