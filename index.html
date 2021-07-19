@@ -18,24 +18,24 @@
             <div class="navbar">   
                 <div class="navbar-logo">
                     <a href="#"><img src="https://res.cloudinary.com/due79afep/image/upload/v1625404461/Group_43_lksb05.png" alt="picture"></a>
-                </div>  
+                </div> 
                 <div>
                     <div class="navbar-list">
                         <div class="navbar-list-links">
                             <ul>
-                                <li><a href="index.html"></a>Home</a></li>
-                                <li><a href="#">Order</a></li>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a onClick="parent.location='#section-one-main'" value='click here'></a>Home</a></li>
+                                <li><a onClick="parent.location='#section-five'" value='click here'>Pay</a></li>
+                                <li><a onClick="parent.location='#section-three'" value='click here'>Menu</a></li>
+                                <li><a onClick="parent.location='#footer'" value='click here'>Contact</a></li>
                             </ul>
                         </div>
                         <div class="navbar-list-button">
-                            <button><a href="login.html">Log In</a></button>
+                            <button onClick="parent.location='#login'" value='click here'><a>Log In</a></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section-one-main">
+            <div class="section-one-main" id="section-one-main">
             <div class="section-one-main-image">
                 <img src="https://res.cloudinary.com/due79afep/image/upload/v1625408967/Group_44_d1dj2i.png" alt="picture">
             </div>
@@ -43,8 +43,8 @@
                 <h1><b>Vegan Shop</b></h1>
                 <h6>Food <span style="color: #8A3D6E;">delivery</span> at your<br>door step</h6>
                 <p>V-shop is sure to bring you delicious<br>vegan food at affordable rates.</p>
-                <button><a href="#">Order Now!</a></button>
-                <button style="padding-right: 10%; padding-left: 10%;"><a href="signup.html">Sign Up</a></button>
+                <button onClick="parent.location='#section-four'" value='click here'><a>Order Now!</a></button>
+                <button style="padding-right: 10%; padding-left: 10%;" onClick="parent.location='#signup'" value='click here'><a>Sign Up</a></button>
             </div>
             </div>
         </section>
@@ -98,7 +98,7 @@
                     <div class="login-main-pic">
                         <img src="https://res.cloudinary.com/due79afep/image/upload/v1626029118/Group_63_h70cru.png" alt="image">
                     </div>
-                    <div class="login-main-words">
+                    <div class="login-main-words" id="login">
                         <h1>Log In</h1>
                         <form action="">
                             <div class="form_row">
@@ -122,7 +122,7 @@
                     <img src="https://res.cloudinary.com/due79afep/image/upload/v1626334639/Path_21_xshdmu.png" alt="image">
                 </div>
             </div>
-            <div class="signup">
+            <div class="signup"  id="signup">
                 <div class="sign-up-main-words">
                     <h1>Sign Up</h1>
                     <form action="">
@@ -157,19 +157,7 @@
                 <img src="https://res.cloudinary.com/due79afep/image/upload/v1626338408/Group_82_bfu7ls.png" alt="image">
             </div>
         </section>
-        <section class="lower-section-borders">
-            <div class="lower-section-border-left">
-                <img src="https://res.cloudinary.com/due79afep/image/upload/v1626626674/Group_120_jxeu8q.png" alt="">
-            </div>
-            <div class="lower-section-border-right">
-                <img src="https://res.cloudinary.com/due79afep/image/upload/v1626626674/Group_121_bsr6vw.png" alt="">
-            </div>
-
-
-
-            
-        </section>
-        <section class="section-three">
+        <section class="section-three" id="section-three">
             <div class="section-three-heading">
                 <h1>Menu</h1>
             </div>
@@ -275,7 +263,7 @@
 
             </div>
         </section>
-        <section class="section-five">
+        <section class="section-five" id="section-five">
             <div class="section-four-heading">
                 <h1>Payment</h1>
             </div>
@@ -321,89 +309,89 @@
                             <span class="dot" onclick="currentSlide(2)"></span>
                             <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
-                            </div>   
-                            <div class="mySlides fade">
-                                <div class="section-tab-sub-heading">
-                                    <h4>Mobile money</h4>
+                    </div>   
+                    <div class="mySlides fade">
+                        <div class="section-tab-sub-heading">
+                            <h4>Mobile money</h4>
+                        </div>
+                        <div class="part-one">
+                            <div class="part-one-row">
+                                <div class="part-one-row-words">
+                                    <p>Payment ID</p>
                                 </div>
-                                <div class="part-one">
-                                    <div class="part-one-row">
-                                        <div class="part-one-row-words">
-                                            <p>Payment ID</p>
-                                        </div>
-                                        <div class="part-one-row-input">
-                                            <input type="text" style="margin-left: 56%; ">
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <div class="part-one">
-                                        <div class="part-one-row">
-                                            <div class="part-one-row-words">
-                                                <p>Order ID</p>
-                                            </div>
-                                            <div class="part-one-row-input">
-                                                <input type="text" style="margin-left: 72%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="part-one">
-                                        <div class="part-one-row">
-                                            <div class="part-one-row-words">
-                                                <p>Payment Amount</p>
-                                            </div>
-                                            <div class="part-one-row-input">
-                                                <input type="text" style="margin-left: 20%;">
-                                            </div>
-                                        </div>
-                                    </div>
-                            <!-- The dots/circles -->
-                            <div style="text-align:center">
-                                <span class="dot" onclick="currentSlide(1)" style="margin-left: -25%;"></span>
-                                <span class="dot" onclick="currentSlide(2)"></span>
-                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <div class="part-one-row-input">
+                                    <input type="text" style="margin-left: 56%; ">
+                                </div>
                             </div>
-                                </div>   
-                                <div class="mySlides fade">
-                                    <div class="section-tab-sub-heading">
-                                        <h4>Credit Card</h4>
+                            </div>
+                            <div class="part-one">
+                                <div class="part-one-row">
+                                    <div class="part-one-row-words">
+                                        <p>Order ID</p>
                                     </div>
-                                    <div class="part-one">
-                                        <div class="part-one-row">
-                                            <div class="part-one-row-words">
-                                                <p>Payment ID</p>
-                                            </div>
-                                            <div class="part-one-row-input">
-                                                <input type="text" style="margin-left: 56%; ">
-                                            </div>
-                                        </div>
+                                    <div class="part-one-row-input">
+                                        <input type="text" style="margin-left: 72%;">
                                     </div>
-                                    <div class="part-one">
-                                        <div class="part-one-row">
-                                            <div class="part-one-row-words">
-                                                <p>Order ID</p>
-                                            </div>
-                                            <div class="part-one-row-input">
-                                                <input type="text" style="margin-left: 72%;">
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="part-one">
+                                <div class="part-one-row">
+                                    <div class="part-one-row-words">
+                                        <p>Payment Amount</p>
                                     </div>
-                                    <div class="part-one">
-                                        <div class="part-one-row">
-                                            <div class="part-one-row-words">
-                                                <p>Payment Amount</p>
-                                            </div>
-                                            <div class="part-one-row-input">
-                                                <input type="text" style="margin-left: 20%;">
-                                            </div>
-                                        </div>
+                                    <div class="part-one-row-input">
+                                        <input type="text" style="margin-left: 20%;">
                                     </div>
-                                    <!-- The dots/circles -->
-                                    <div class="dot-enclosure" style="text-align:center">
-                                        <span class="dot" onclick="currentSlide(1)" style="margin-left: -25%;"></span>
-                                        <span class="dot" onclick="currentSlide(2)"></span>
-                                        <span class="dot" onclick="currentSlide(3)"></span>
-                                    </div>
-                                </div>   
+                                </div>
+                            </div>
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)" style="margin-left: -25%;"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>   
+                    <div class="mySlides fade">
+                        <div class="section-tab-sub-heading">
+                            <h4>Credit Card</h4>
+                        </div>
+                        <div class="part-one">
+                            <div class="part-one-row">
+                                <div class="part-one-row-words">
+                                    <p>Payment ID</p>
+                                </div>
+                                <div class="part-one-row-input">
+                                    <input type="text" style="margin-left: 56%; ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="part-one">
+                            <div class="part-one-row">
+                                <div class="part-one-row-words">
+                                    <p>Order ID</p>
+                                </div>
+                                <div class="part-one-row-input">
+                                    <input type="text" style="margin-left: 72%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="part-one">
+                            <div class="part-one-row">
+                                <div class="part-one-row-words">
+                                    <p>Payment Amount</p>
+                                </div>
+                                <div class="part-one-row-input">
+                                    <input type="text" style="margin-left: 20%;">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The dots/circles -->
+                        <div class="dot-enclosure" style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)" style="margin-left: -25%;"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>   
                 </form>
 
             </div>
@@ -422,16 +410,16 @@
                     <a href="#"><i id="fafaicon" class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
             </div>
-            <!-- <div class="section-three-decoration">
-                <div class="section-three-decoration-left">
-                    <img src="https://res.cloudinary.com/due79afep/image/upload/v1625413074/Group_33_yojbpn.png" alt="image">
-                </div>
-                <div class="section-three-decoration-right">
-                    <img src="https://res.cloudinary.com/due79afep/image/upload/v1625413074/Group_33_yojbpn.png" alt="image">
-                </div>
-            </div> -->
         </section>
-        <footer>
+        <section class="lower-section-borders">
+            <div class="lower-section-border-left">
+                <img src="https://res.cloudinary.com/due79afep/image/upload/v1626712485/Group_120_vc0lj8.png" alt="">
+            </div>
+            <div class="lower-section-border-right">
+                <img src="https://res.cloudinary.com/due79afep/image/upload/v1626712485/Group_121_fkvv3x.png" alt="">
+            </div>   
+        </section>
+        <footer id="footer">
             <div class="footer-copyright">
                 <p>© Copyright Kirwa Codes</p>
             </div>
@@ -454,9 +442,13 @@
                     <li style="padding: 30%;"><a href="#">Tools</a></li>
                     <li style="padding: 30%;"><a href="#">Tips</a></li>
                 </ul>
+                <ul>
+                    <li style="padding: 20%;"><a href="#"><b>Views</b></a></li>
+                    <li style="margin-top: 20%;"><a href="admin-view.html">Admin</a></li>
+                    <li style="margin-top: 20%;"><a href="vendor-view.html">Vendor</a></li>
+                </ul>
             </div>
         </footer>
-
     <script src="main.js"></script>
 </body>
 </html>

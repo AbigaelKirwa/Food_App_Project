@@ -35,7 +35,7 @@ body
     display: flex;
     flex-direction: row;
     width: max-content;
-    margin-left: 115%;
+    margin-left: 125%;
 }
 .navbar ul 
 {
@@ -87,6 +87,14 @@ li
     padding-top: 20%;
     padding-bottom: 20%;
     margin-top: -40%;
+}
+li:hover
+{
+    cursor:pointer;
+}
+button:hover
+{
+    cursor:pointer;
 }
 a
 {
@@ -467,18 +475,26 @@ input:focus, textarea:focus, select:focus{
     display: flex;
     flex-direction: row;
 }
-.lower-section-border-left
+.lower-section-borders img
 {
-    margin-left: -25%;
+    width: 50%;
 }
-.lower-section-border-right
+.lower-section-borders
 {
-    margin-left: 84%;
-    margin-top: -17%;
+    margin-top: -230%;
+}
+.lower-section-border-left img
+{
+    margin-left: -30%;
+}
+.lower-section-border-right img
+{
+    margin-left: 185%;
+    margin-top: -20%;
 }
 .section-three
 {
-    margin-top: -460%;
+    margin-top: 5%;
 }
 .section-three-heading, .section-four-heading
 {
@@ -531,6 +547,11 @@ input:focus, textarea:focus, select:focus{
     border-radius: 80px;
     color: #ffffff;
 }
+.section-four  .section-tab
+{
+    padding-top: 8%;
+    padding-bottom: 9%;
+}
 .section-tab
 {
     margin-left: 24%;
@@ -575,6 +596,7 @@ input:focus, textarea:focus, select:focus{
   
   .active, .dot:hover {
     background-color: #717171;
+    cursor:pointer;
   }
   
   /* Fading animation */
@@ -655,7 +677,7 @@ footer
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(180deg, #287a0f, #22660d);
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 5%;
 }
 .footer-copyright
