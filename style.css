@@ -18,6 +18,10 @@ body
 {
     font-family: 'Varela Round';
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 .navbar-vector img
 {
     width: 100%;
@@ -35,7 +39,7 @@ body
     display: flex;
     flex-direction: row;
     width: max-content;
-    margin-left: 125%;
+    margin-left: 110%;
 }
 .navbar ul 
 {
@@ -63,7 +67,7 @@ li
 }
 .navbar-list-button
 {
-    margin-left: 40%;
+    margin-left: 35%;
     margin-top: -2%;
 }
 .navbar-list button
@@ -100,6 +104,16 @@ a
 {
     text-decoration: none;
     color: inherit;
+}
+.dark-theme-icon
+{
+    margin-top: -6%;
+    margin-left: 30%
+}
+.dark-theme-icon i
+{
+    font-size: 50px; 
+    color: #ffffff;
 }
 .navbar-logo img
 {

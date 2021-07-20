@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="color-scheme" content="dark light"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="https://res.cloudinary.com/due79afep/image/upload/v1625403924/Group_42_deioms.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Vegan Shop | Home Page</title>
 </head>
-<body>
+<body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1007.0" data-gr-ext-installed="">
     <div class="container">
         <section class="section-one">
             <div class="navbar-vector">
@@ -32,12 +34,15 @@
                         <div class="navbar-list-button">
                             <button onClick="parent.location='#login'" value='click here'><a>Log In</a></button>
                         </div>
+                        <div class="dark-theme-icon">
+                            <i class="fa fa-power-off" aria-hidden="true" onclick="mydarkFunction()"></i>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="section-one-main" id="section-one-main">
             <div class="section-one-main-image">
-                <img src="https://res.cloudinary.com/due79afep/image/upload/v1625408967/Group_44_d1dj2i.png" alt="picture">
+                <img src="https://res.cloudinary.com/due79afep/image/upload/v1626764240/Group_13_w7pcyf.png" alt="picture">
             </div>
             <div v class="section-one-main-words">
                 <h1><b>Vegan Shop</b></h1>
@@ -370,6 +375,11 @@
             </div>
         </footer>
     </div>
+    
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- main script -->
     <script src="main.js"></script>
 </body>
 </html>
