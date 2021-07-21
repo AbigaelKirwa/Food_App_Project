@@ -26,8 +26,8 @@
                         <div class="navbar-list-links">
                             <ul>
                                 <li><a onClick="parent.location='#section-one-main'" value='click here'></a>Home</a></li>
-                                <li><a onClick="parent.location='#section-five'" value='click here'>Pay</a></li>
-                                <li><a onClick="parent.location='#section-three'" value='click here'>Menu</a></li>
+                                <li><a onClick="parent.location='#section-two'" value='click here'>About</a></li>
+                                <!-- <li><a onClick="parent.location='#section-three'" value='click here'>Menu</a></li> -->
                                 <li><a onClick="parent.location='#footer'" value='click here'>Contact</a></li>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@
             </div>
         </section>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        <section class="section-two">
+        <section class="section-two" id="section-two">
             <h1>Go Greener - Go Vegan</h1>
             <p style="text-align: center;">Vegan food has been shown to have great impact on your metabolism as well as<br>your overall health. Shop vegan today.</p>
             <div class="section-two-pictures">
@@ -119,8 +119,8 @@
                                 <input type="text" style="margin-left: 17%;">
                             </div>
                         </form>
-                        <p>Don't have an account? <span><a href="signup.html">Sign Up</a></span></p>
-                        <button type="submit"><a href="#">Log In</a></button>
+                        <p>Already have an account? <span><a onClick="parent.location='#signup'" value='click here'>Sign Up</a></span></p>
+                        <button type="submit"><a href="menu-order-payment.html">Log In</a></button>
                     </div>
                 </div>
                 <div class="login-vector-2">
@@ -147,9 +147,10 @@
                             <label for="email"style="margin-top: 3%;">Email</label>
                             <input type="text" style="margin-left: 17%;">
                         </div>
+                        <p>Already have an account? <span><a onClick="parent.location='#login'" value='click here'>Log In</a></span></p>
+                        <button type="submit"><a href="menu-order-payment.html">Sign Up</a></button>
                     </form>
-                    <p>Already have an account? <span><a href="login.html">Log In</a></span></p>
-                    <button type="submit"><a href="#">Sign Up</a></button>
+
                 </div>
                 <div class="sign-up-main-pic">
                     <img src="https://res.cloudinary.com/due79afep/image/upload/v1626029116/Group_64_mblezv.png" alt="image">
@@ -161,166 +162,6 @@
             <div class="sign-up-first-bar-picture">
                 <img src="https://res.cloudinary.com/due79afep/image/upload/v1626338408/Group_82_bfu7ls.png" alt="image">
             </div>
-        </section>
-        <section class="section-three" id="section-three">
-            <div class="section-three-heading">
-                <h1>Menu</h1>
-            </div>
-            <div class="section-three-menu-options">
-                <div class="section-three-menu-options-row">
-                    <div class="column-one">
-                        <div class="column-one-image">
-                            <img src="https://res.cloudinary.com/due79afep/image/upload/v1626623319/Group_100_sexiz8.png" alt="img1">
-                        </div>
-                        <div class="column-one-words">
-                            <p>Vegan-Pizza<br>$2.00</p>
-                        </div>
-                    </div>
-                    <div class="column-one">
-                        <div class="column-one-image">
-                            <img src="https://res.cloudinary.com/due79afep/image/upload/v1626623319/Group_101_fuyoym.png" alt="img2">
-                        </div>
-                        <div class="column-one-words">
-                            <p>Vegan-Drink<br>$2.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-three-menu-options-row">
-                    <div class="column-one">
-                        <div class="column-one-image">
-                            <img src="https://res.cloudinary.com/due79afep/image/upload/v1626623319/Group_107_naux5a.png" alt="img1">
-                        </div>
-                        <div class="column-one-words">
-                            <p>Vegan-Casserole<br>$1.00</p>
-                        </div>
-                    </div>
-                    <div class="column-one">
-                        <div class="column-one-image">
-                            <img src="https://res.cloudinary.com/due79afep/image/upload/v1626623320/Group_108_itdz3a.png" alt="img2">
-                        </div>
-                        <div class="column-one-words">
-                            <p>Vegetables<br>$4.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-three-menu-options-row">
-                    <div class="column-one">
-                        <div class="column-one-image">
-                            <img src="https://res.cloudinary.com/due79afep/image/upload/v1626623320/Group_123_ak1w03.png" alt="img1">
-                        </div>
-                        <div class="column-one-words">
-                            <p>Vegan-Rice<br>$5.00</p>
-                        </div>
-                    </div>
-                    <div class="column-one">
-                        <div class="column-one-image">
-                            <img src="https://res.cloudinary.com/due79afep/image/upload/v1626623321/Group_124_cfs2px.png" alt="img2">
-                        </div>
-                        <div class="column-one-words">
-                            <p>Vegan-Dessert<br>$3.00</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-        <section class="section-four" id="section-four">
-            <div class="section-four-heading">
-                <h1>Order</h1>
-            </div>
-            <div class="section-tab">
-                <form action="">
-                    <div class="section-tab-sub-heading">
-                        <h4>Order</h4>
-                    </div>
-                    <div class="part-one">
-                        <div class="part-one-row">
-                            <div class="part-one-row-words">
-                                <p>Order ID</p>
-                            </div>
-                            <div class="part-one-row-input">
-                                <input type="text" style="margin-left: 70%; ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="part-one">
-                        <div class="part-one-row">
-                            <div class="part-one-row-words">
-                                <p>Food Ordered</p>
-                            </div>
-                            <div class="part-one-row-input">
-                                <input type="text" style="margin-left: 40%;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="part-one">
-                        <div class="part-one-row">
-                            <div class="part-one-row-words">
-                                <p>Amount Ordered</p>
-                            </div>
-                            <div class="part-one-row-input">
-                                <input type="text" style="margin-left: 21%;">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </section>
-        <section class="section-five" id="section-five">
-            <div class="section-four-heading">
-                <h1>Payment</h1>
-            </div>
-            <div class="section-tab" style="padding-bottom: 10%; padding-top: 7%;">
-                <form action="">
-                    <div class="mySlides fade">
-                        <div class="section-tab-sub-heading">
-                            <h4>Cash</h4>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="section-tab-sub-heading">
-                            <h4>Mobile money</h4>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="section-tab-sub-heading">
-                            <h4>Credit Card</h4>
-                        </div>
-                    </div>  
-                        <div class="part-one">
-                            <div class="part-one-row">
-                                <div class="part-one-row-words">
-                                    <p>Payment ID</p>
-                                </div>
-                                <div class="part-one-row-input">
-                                    <input type="text" style="margin-left: 56%; ">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="part-one">
-                            <div class="part-one-row">
-                                <div class="part-one-row-words">
-                                    <p>Order ID</p>
-                                </div>
-                                <div class="part-one-row-input">
-                                    <input type="text" style="margin-left: 72%;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="part-one">
-                            <div class="part-one-row">
-                                <div class="part-one-row-words">
-                                    <p>Payment Amount</p>
-                                </div>
-                                <div class="part-one-row-input">
-                                    <input type="text" style="margin-left: 20%;">
-                                </div>
-                            </div>
-                        </div>
-                    </div>   
-                </form>
         </section>
         <section class="section-six">
             <h1>Follow us on our<br>social media pages</h1>
@@ -336,14 +177,14 @@
                 </div>
             </div>
         </section>
-        <section class="lower-section-borders">
+        <!-- <section class="lower-section-borders">
             <div class="lower-section-border-left">
                 <img src="https://res.cloudinary.com/due79afep/image/upload/v1626712485/Group_120_vc0lj8.png" alt="">
             </div>
             <div class="lower-section-border-right">
                 <img src="https://res.cloudinary.com/due79afep/image/upload/v1626712485/Group_121_fkvv3x.png" alt="">
             </div>   
-        </section>
+        </section> -->
         <footer id="footer">
             <div class="footer-copyright">
                 <p>© Copyright Kirwa Codes</p>
