@@ -1,6 +1,6 @@
 //Get the button
 var mybutton = document.getElementById("myBtn");
-
+{/* <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> */}
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -16,7 +16,10 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+
 }
+
+
 
 
 // var slideIndex = 1;
@@ -48,6 +51,13 @@ function topFunction() {
 //   dots[slideIndex-1].className += " active";
 // }
 
+// function goto($hashtag){
+//   document.location = "index.html#" + $hashtag;
+// }
+// var scroll = new SmoothScroll('a[href*="#"]', {
+// 	speed: 1000,
+// 	speedAsDuration: true
+// });
 
 var slideIndex = 0;
 showSlides();

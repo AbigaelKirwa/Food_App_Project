@@ -39,7 +39,7 @@ body
     display: flex;
     flex-direction: row;
     width: max-content;
-    margin-left: 150%;
+    margin-left: 140%;
 }
 .navbar ul 
 {
@@ -51,7 +51,7 @@ li
 {
     list-style: none;
 }
-a
+a, i
 {
     cursor: pointer;
 }
@@ -172,7 +172,7 @@ a
     font-weight: bold;
     font-size: 25px;
     color: #ffffff;
-    background-color: rgb(29, 129, 39);
+    background-color: rgb(11, 117, 22);
     border-radius: 55px;
     border: none;
     box-shadow: 10px 10px rgb(89,60,60,0.28);
@@ -306,8 +306,9 @@ section.section-two
 }
 .login-main-words
 {
+    position: absolute;
     width: 50%;
-    margin-left: -35%;
+    margin-left: 50%;
     margin-top: -15%;
 }
 .login-vector-2 img
